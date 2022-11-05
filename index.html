@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/iconsfont.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson 16</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header id="to-top">
+			<div class="header__container">
+				<div class="header__body body-columns">
+					<div class="body-columns__logo">
+						<a href="#"><img src="img/logo.svg" alt="Logo"></a>
+					</div>
+					<div class="burger">
+						<span></span>
+					</div>
+					<div class="body-columns__row row-body">
+						<nav class="row-body__menu menu">
+							<ul class="menu__list">
+								<li class="menu__item"><a class="menu__link" href="#">About Us</a></li>
+								<li class="menu__item"><a class="menu__link" href="#">Courses</a></li>
+								<li class="menu__item"><a class="menu__link" href="#">Events</a></li>
+								<li class="menu__item"><a class="menu__link" href="#">Blog</a></li>
+								<li class="menu__item"><a class="menu__link" href="#">Contacts</a></li>
+							</ul>
+						</nav>
+						<div class="row-body__actions actions-columns">
+							<div class="actions-columns__button">
+								<a href="#" class="button">Get consultation</a>
+							</div>
+							<div class="actions-columns__autorize autorize-columns _icon-man">
+								<div class="autorize-columns__log">
+									<a href="#">Log in</a>
+								</div>
+								<span>/</span>
+								<div class="autorize-columns__register">
+									<a href="#">Register</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<section class="contacts">
+				<div class="contacts__container">
+					<div class="contacts__body body-contacts">
+						<div class="body-contacts__info info-contacts">
+							<div class="info-contacts__sub-title sub-title">
+								<h3>Contact info</h3>
+								<h2>Get in touch</h2>
+							</div>
+							<div class="info-contacts__all all-info">
+								<div class="all-info__item">
+									<div class="all-info__text _icon-talk">Talk to us:</div>
+									<div class="all-info__contact"><a class="all-info__link" href="#">
+											hello@createx.com</a>
+									</div>
+								</div>
+								<div class="all-info__item">
+									<div class="all-info__text _icon-call">Call us:</div>
+									<div class="all-info__contact">(405) 555-0128</div>
+								</div>
+								<div class="all-info__item">
+									<div class="all-info__text _icon-adress">Address:</div>
+									<div class="all-info__contact"><a target="_blank" class="all-info__link"
+											href="https://goo.gl/maps/uKP4rFot27tzH29T8">2464 Royal Ln. Mesa, New Jersey 45463,
+											USA</a>
+									</div>
+								</div>
+							</div>
+							<div class="info-contacts__follow follow-contacts">
+								<h3 class="follow-contacts__text">Follow us:</h3>
+								<ul class="follow-contacts__list socials">
+									<li class="socials__item"><a class="socials__link _icon-facebook" href="#"></a>
+									</li>
+									<li class="socials__item"><a class="socials__link _icon-twitter" href="#"></a>
+									</li>
+									<li class="socials__item"><a class="socials__link _icon-youtube" href="#"></a>
+									</li>
+									<li class="socials__item"><a class="socials__link _icon-telegram" href="#"></a>
+									</li>
+									<li class="socials__item"><a class="socials__link _icon-instagram" href="#"></a>
+									</li>
+									<li class="socials__item"><a class="socials__link _icon-linkedin" href="#"></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="body-contacts__map">
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97880.32541287217!2d-77.1677750013974!3d39.94675396455165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c8f9a1e8ba61f3%3A0x29f62ae84ad8beb!2sApple%20Valley%20Creamery%2C%20LLC.!5e0!3m2!1sru!2sua!4v1667312759320!5m2!1sru!2sua"
+								width="705" height="412" style="border:0;" allowfullscreen="" loading="lazy"
+								referrerpolicy="no-referrer-when-downgrade"></iframe>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="drop">
+				<div class="drop__container">
+					<div class="drop__body">
+						<div class="drop__image">
+							<img src="img/illustration.jpg" alt="">
+						</div>
+						<div class="drop__actions actions-drop">
+							<div class="actions-drop__sub-title sub-title">
+								<h3>Any questions?</h3>
+								<h2>Drop us a line</h2>
+							</div>
+							<form action="https://jsonplaceholder.typicode.com/posts" class="actions-drop__form form-actions"
+								method="post">
+								<div class="form-actions__lines lines-form">
+									<div class="lines-form__rows">
+										<label for="fname" class="lines-form__label">First Name*</label>
+										<input id="fname" required placeholder="Your first name" name="fname" type="text"
+											class="lines-form__input">
+									</div>
+									<div class="lines-form__rows">
+										<label for="lname" class="lines-form__label">Last Name*</label>
+										<input id="lname" required placeholder="Your last name" name="lname" type="text"
+											class="lines-form__input">
+									</div>
+									<div class="lines-form__rows">
+										<label for="mail" class="lines-form__label">Email*</label>
+										<input id="mail" required placeholder="Your working email" name="email" type="email"
+											class="lines-form__input">
+									</div>
+									<div class="lines-form__rows">
+										<label for="phone" class="lines-form__label">Phone</label>
+										<input id="phone" name="phone" placeholder="Your phone number" type="tel"
+											class="lines-form__input">
+									</div>
+								</div>
+								<div class="form-actions__message message-form">
+									<label class="message-form__label" for="text">Message*</label>
+									<textarea name="message" id="text" placeholder="Your message" required
+										autocomplete="off"></textarea>
+								</div>
+								<div class="form-actions__radio radio-form">
+									<div class="radio-form__item">
+										<input class="radio-form__input" type="radio" id="male" name="gender" value="male">
+										<label class="radio-form__label" for="male">Male</label>
+									</div>
+									<div class="radio-form__item">
+										<input class="radio-form__input" type="radio" id="female" name="gender" value="female">
+										<label class="radio-form__label" for="female">Female</label>
+									</div>
+								</div>
+								<div class="form-actions__agree agree-form">
+									<div class="agree-form__check">
+										<input class="agree-form__input" type="checkbox" name="agree" id="agree" value="yes"
+											required>
+										<label for="agree" class="agree-form__label"><span>I agree to receive communications from
+												Createx Online School</span></label>
+									</div>
+									<button class="agree-form__button button" type="submit">Send message</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="footer__container">
+				<div class="footer__main main-footer">
+					<div class="main-footer__info info-main">
+						<div class="info-main__logo">
+							<img src="img/logo-footer.svg" alt="">
+						</div>
+						<div class="info-main__text">
+							<p>Createx Online School is a leader in online studying. We have lots of courses and programs from
+								the main market experts. We provide relevant approaches to online learning, internships and
+								employment in the largest companies in the country. </p>
+						</div>
+						<div class="info-main__socials socials-info">
+							<ul class="socials-info__list socials socials--gap">
+								<li class="socials__item"><a class="socials__link _icon-facebook _icon-facebook--color"
+										href="#"></a>
+								</li>
+								<li class="socials__item"><a class="socials__link _icon-twitter _icon-twitter--color"
+										href="#"></a>
+								</li>
+								<li class="socials__item"><a class="socials__link _icon-youtube _icon-youtube--color"
+										href="#"></a>
+								</li>
+								<li class="socials__item"><a class="socials__link _icon-telegram _icon-telegram--color"
+										href="#"></a>
+								</li>
+								<li class="socials__item"><a class="socials__link _icon-instagram _icon-instagram--color"
+										href="#"></a>
+								</li>
+								<li class="socials__item"><a class="socials__link _icon-linkedin _icon-linkedin--color"
+										href="#"></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div data-spollers="767.98,max" class="main-footer__column column-footer one">
+						<div class="column-footer__smap footer-column">
+							<h2 class="footer-column__label">SITE MAP</h2>
+							<nav class="footer-column__item item-footer">
+								<ul class="item-footer__list list-menu">
+									<li class="list-menu__item"><a class="list-menu__link" href="#">About Us</a></li>
+									<li class="list-menu__item"><a class="list-menu__link" href="#">Courses</a></li>
+									<li class="list-menu__item"><a class="list-menu__link" href="#">Events</a></li>
+									<li class="list-menu__item"><a class="list-menu__link" href="#">Blog</a></li>
+									<li class="list-menu__item"><a class="list-menu__link" href="#">Contacts</a></li>
+								</ul>
+							</nav>
+						</div>
+						<div class="column-footer__courses footer-column">
+							<h2 class="footer-column__label">COURSES</h2>
+							<nav class="footer-column__item item-footer">
+								<ul class="item-footer__list list-menu">
+									<li class="list-menu__item"><a class="list-menu__link" href="#">Marketing</a></li>
+									<li class="list-menu__item"><a class="list-menu__link" href="#">Management</a></li>
+									<li class="list-menu__item"><a class="list-menu__link" href="#">HR & Recruting</a></li>
+									<li class="list-menu__item"><a class="list-menu__link" href="#">Design</a></li>
+									<li class="list-menu__item"><a class="list-menu__link" href="#">Development</a></li>
+								</ul>
+							</nav>
+						</div>
+						<div class="column-footer__contacts footer-column">
+							<h2 class="footer-column__label">CONTACT US</h2>
+							<nav class="footer-column__item item-footer">
+								<ul class="item-footer__list list-menu">
+									<li class="list-menu__phone _icon-phone2"><a class="list-menu__link"
+											href="tel:(405)555-0128">(405)
+											555-0128</a></li>
+									<li class="list-menu__mail _icon-mail"><a class="list-menu__link"
+											href="#">hello@createx.com</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<div class="main-footer__sign sign-main">
+						<h2 class="sign-main__title">SIGN UP TO OUR NEWSLETTER</h2>
+						<form action="#" method="post" class="sign-main__form">
+							<input id="sign" class="sign-main__input" type="email" required name="mail"
+								placeholder="Email address">
+							<button class="sign-main__button _icon-arrow" type="submit"></button>
+							<label for="sign" class="sign-main__label">*Subscribe to our newsletter to receive communications
+								and early updates from Createx SEO Agency.</label>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="footer__copiright copiright-footer">
+				<div class="copiright-footer__container">
+					<div class="copiright-footer__body">
+						<div class="copiright-footer__reserved">
+							<p>© All rights reserved. Made with
+								<span class="copiright-footer__heart"><img src="img/icons/heart.svg" alt=""></span> by Createx
+								Studio
+							</p>
+						</div>
+						<div class="copiright-footer__to-top">
+							<a href="#to-top">go to top</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
